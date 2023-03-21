@@ -6,9 +6,11 @@ void input_str(char *str){
 }
 
 void copy_str(char *str, char *str1){
+  int i;
   for(int i=0; str[i]!='\0'; i++){
     str1[i] = str[i];
   }
+  str[i]='\0';
 }
 
 void output(char *str1){
